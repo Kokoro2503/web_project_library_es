@@ -175,6 +175,7 @@
   
   .events__content {
     flex-basis: 580px;
+    display: flex;
   }
   
   .events__heading {
@@ -236,6 +237,7 @@
   
   .events__image {
     max-width: 100%;
+    flex-wrap: wrap;
   }
   
   .person {
@@ -247,8 +249,8 @@
   }
   
   .person_name_feynman {
-    top: -30px;
-    left: 319px;
+   top: -30px;
+   left: 319px;
   }
   
   .person_name_burbidge {
