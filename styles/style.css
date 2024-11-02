@@ -175,7 +175,6 @@
   
   .events__content {
     flex-basis: 580px;
-    display: flex;
   }
   
   .events__heading {
@@ -259,8 +258,8 @@
   }
   
   .person_name_cannon {
-    bottom: 18px;
-    right: 216px;
+    bottom: 216px;
+    right: 18px;
   }
   
   .person_name_mitchell {
