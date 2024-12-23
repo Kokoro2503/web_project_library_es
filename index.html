@@ -79,7 +79,7 @@
 
           <ul class="staff__cards">
             <li id="primer-enlace" class="card">
-              <div class="card__content">
+              <div class="card__content" id="cards">
                 <h3 class="card__title">Introducción a los algoritmos</h3>
 
                 <p class="card__text">
@@ -190,7 +190,7 @@
               </div>
             </div>
 
-            <div>
+            <div id="events">
               <p class="events__description" id="events-description">
                 En este evento, en el que celebramos el nombre de nuestra
                 biblioteca, nuestra invitada nos llevará a través de un viaje
@@ -251,133 +251,130 @@
             </div>
           </div>
         </section>
-
-        <section>
-          <footer>
-            <section class="membership" id="membership">
-              <h2 class="membership__title" id="membership-title">
-                ¡Convertirse en miembro es muy fácil!
-              </h2>
-              <ul class="membership__steps" id="membership-steps">
-                <li class="step">
-                  <h3 class="step__title">
-                    Paso 1
-                    <img
-                      src="./images/icon_step_forward.svg"
-                      alt="icon forward"
-                      class="step__icon"
-                    />
-                  </h3>
-                  <p class="step__description">
-                    Completa el formulario de afiliación en línea o en persona.
-                  </p>
-                </li>
-                <li class="step">
-                  <h3 class="step__title">
-                    Paso 2
-                    <img
-                      src="./images/icon_step_forward.svg"
-                      alt="icon forward"
-                      class="step__icon"
-                    />
-                  </h3>
-                  <p class="step__description">
-                    Ven y recoge tu credencial de la biblioteca en la recepción.
-                  </p>
-                </li>
-                <li class="step">
-                  <h3 class="step__title">
-                    Paso 3
-                    <img
-                      src="./images/icon_step_forward.svg"
-                      alt="icon forward"
-                      class="step__icon"
-                    />
-                  </h3>
-                  <p class="step__description">Firma el envés de la tarjeta.</p>
-                </li>
-                <li class="step">
-                  <h3 class="step__title">
-                    Paso 4
-                    <img
-                      src="./images/icon_step_finish.svg"
-                      alt="icon finish"
-                      class="step__icon"
-                    />
-                  </h3>
-                  <p class="step__description">
-                    ¡Disfruta de los increíbles beneficios de nuestra membresía!
-                  </p>
-                </li>
-              </ul>
-            </section>
-
-            <section id="footer" class="footer">
-              <div id="footer-columns" class="footer__columns">
-                <div id="footer-column" class="footer__column footer">
-                  <img
-                    src="./images/logo.svg"
-                    alt="Logo"
-                    class="footer__logo"
-                    id="footer-logo"
-                  />
-                </div>
-                <div
-                  class="footer__column footer__column_content_hours"
-                  id="footer-column-content-hours"
-                >
-                  <h3
-                    id="foooter-column-heading"
-                    class="footer__column-heading"
-                  >
-                    Horario de apertura
-                  </h3>
-                  <ul class="footer__list" id="footer-list">
-                    <li class="footer__list-item" id="footer-list-item">
-                      <p>Lunes a viernes: 9 a.m. -- 8 p.m.</p>
-                    </li>
-                    <li class="footer__list-item">
-                      <p>Sábados y domingos: 10 a.m. -- 6 p.m.</p>
-                    </li>
-                  </ul>
-                </div>
-                <div
-                  id="footer-column-content-social"
-                  class="footer__column footer__column_content_social"
-                >
-                  <h3 class="footer__column-heading">Redes sociales</h3>
-                  <ul class="footer__list">
-                    <li class="footer__list-item">
-                      <p class="footer__column-link">
-                        <img
-                          src="./images/facebook_white.svg"
-                          alt="Facebook"
-                          class="footer__social-icon"
-                          id="footer-social-icon"
-                        />
-                        Facebook
-                      </p>
-                    </li>
-                    <li class="footer__list-item">
-                      <p id="footer-column-link" class="footer__column-link">
-                        <img
-                          src="images/instagram_white.svg"
-                          alt="Instagram"
-                          class="footer__social-icon"
-                        />
-                        Instagram
-                      </p>
-                    </li>
-                  </ul>
-                  <p class="footer__copyright" id="footer-copyright">
-                    © 2024 Fernanda Vega
-                  </p>
-                </div>
-              </div>
-            </section>
-          </footer>
-        </section>
       </main>
+
+      <section>
+        <footer class="footer">
+          <section class="membership" id="membership">
+            <h2 class="membership__title" id="membership-title">
+              ¡Convertirse en miembro es muy fácil!
+            </h2>
+            <ul class="membership__steps" id="membership-steps">
+              <li class="step">
+                <h3 class="step__title">
+                  Paso 1
+                  <img
+                    src="./images/icon_step_forward.svg"
+                    alt="icon forward"
+                    class="step__icon"
+                  />
+                </h3>
+                <p class="step__description">
+                  Completa el formulario de afiliación en línea o en persona.
+                </p>
+              </li>
+              <li class="step">
+                <h3 class="step__title">
+                  Paso 2
+                  <img
+                    src="./images/icon_step_forward.svg"
+                    alt="icon forward"
+                    class="step__icon"
+                  />
+                </h3>
+                <p class="step__description">
+                  Ven y recoge tu credencial de la biblioteca en la recepción.
+                </p>
+              </li>
+              <li class="step">
+                <h3 class="step__title">
+                  Paso 3
+                  <img
+                    src="./images/icon_step_forward.svg"
+                    alt="icon forward"
+                    class="step__icon"
+                  />
+                </h3>
+                <p class="step__description">Firma el envés de la tarjeta.</p>
+              </li>
+              <li class="step">
+                <h3 class="step__title">
+                  Paso 4
+                  <img
+                    src="./images/icon_step_finish.svg"
+                    alt="icon finish"
+                    class="step__icon"
+                  />
+                </h3>
+                <p class="step__description">
+                  ¡Disfruta de los increíbles beneficios de nuestra membresía!
+                </p>
+              </li>
+            </ul>
+          </section>
+
+          <section id="footer" class="footer">
+            <div id="footer-columns" class="footer__columns">
+              <div id="footer-column" class="footer__column footer">
+                <img
+                  src="./images/logo.svg"
+                  alt="Logo"
+                  class="footer__logo"
+                  id="footer-logo"
+                />
+              </div>
+              <div
+                class="footer__column footer__column_content_hours"
+                id="footer-column-content-hours"
+              >
+                <h3 id="foooter-column-heading" class="footer__column-heading">
+                  Horario de apertura
+                </h3>
+                <ul class="footer__list" id="footer-list">
+                  <li class="footer__list-item" id="footer-list-item">
+                    <p>Lunes a viernes: 9 a.m. -- 8 p.m.</p>
+                  </li>
+                  <li class="footer__list-item" id="footer-list-item">
+                    <p>Sábados y domingos: 10 a.m. -- 6 p.m.</p>
+                  </li>
+                </ul>
+              </div>
+              <div
+                id="footer-column-content-social"
+                class="footer__column footer__column_content_social"
+              >
+                <h3 class="footer__column-heading">Redes sociales</h3>
+                <ul class="footer__list">
+                  <li class="footer__list-item" id="footer-list-item">
+                    <p class="footer__column-link">
+                      <img
+                        src="./images/facebook_white.svg"
+                        alt="Facebook"
+                        class="footer__social-icon"
+                        id="footer-social-icon"
+                      />
+                      Facebook
+                    </p>
+                  </li>
+                  <li class="footer__list-item" id="footer-list-item">
+                    <p id="footer-column-link" class="footer__column-link">
+                      <img
+                        src="images/instagram_white.svg"
+                        alt="Instagram"
+                        class="footer__social-icon"
+                      />
+                      Instagram
+                    </p>
+                  </li>
+                </ul>
+                <p class="footer__copyright" id="footer-copyright">
+                  © 2024 Fernanda Vega
+                </p>
+              </div>
+            </div>
+          </section>
+        </footer>
+      </section>
     </div>
   </body>
 </html>
