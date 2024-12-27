@@ -386,9 +386,11 @@
 }
 
 .footer__column-link {
+  display: flexbox;
   color: white;
   text-decoration: none;
   column-gap: 10px;
+  align-items: start;
 }
 
 .footer__social-icon {
